@@ -7,3 +7,5 @@ class URL:
             url = url + "/"
         self.host, url = url.split("/", 1)
         self.path = "/" + url
+
+    def request(self):
